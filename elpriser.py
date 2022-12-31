@@ -16,7 +16,7 @@ def price_converter(MWh):
         return str(converted_price_pr_KWh)
 
 
-if __name == "__main":
+if __name__ == "__main__":
     for i in range(0, 24):
         # Get timestamp from python dictionary
         startTime = data.get('data').get("Rows")[i].get("StartTime")
